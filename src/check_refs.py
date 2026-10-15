@@ -21,7 +21,7 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 
 def cited_ids():
     ids = {}
-    for path in sorted((ROOT / "docs").rglob("*.md")):
+    for path in sorted(ROOT.rglob("*.md")):
         for m in ID_RE.finditer(path.read_text()):
             ident = next(g for g in m.groups() if g)
             ids.setdefault(ident, set()).add(str(path.relative_to(ROOT)))

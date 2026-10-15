@@ -11,7 +11,7 @@ Sources (primary only):
   Epoch Capabilities Index https://epoch.ai/data/eci_scores.csv
 
 Writes data/metr_time_horizons.csv, data/eci_scores.csv, data/eci_frontier.csv,
-docs/figures/metr_time_horizon.png, docs/figures/eci_frontier.png, and data/SNAPSHOT.json.
+figures/metr_time_horizon.png, figures/eci_frontier.png, and data/SNAPSHOT.json.
 """
 import csv
 import datetime as dt
@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA, FIG = ROOT / "data", ROOT / "docs" / "figures"
+DATA, FIG = ROOT / "data", ROOT / "figures"
 METR_URL = "https://metr.org/assets/benchmark_results_1_1.yaml"
 ECI_URL = "https://epoch.ai/data/eci_scores.csv"
 
