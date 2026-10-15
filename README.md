@@ -22,6 +22,8 @@ A collection of surveys and notes that tracks how far AI systems are from artifi
 | [timeline.md](timeline.md) | Milestones from 1950 to now |
 | [learn/](learn/README.md) | A twelve-module study path with readings, exercises and questions |
 | [ideas.md](ideas.md) | Open problems, each with a note on what would count as progress |
+| [papers.md](papers.md) | Seminal papers for anyone starting work in the field |
+| [labs.md](labs.md) | Labs and organisations working on general AI, and where to follow them |
 
 ## Two charts
 
