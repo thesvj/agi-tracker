@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this tracker, please cite it."
+title: "AGI Tracker: a sourced, testable record of progress towards AGI"
+authors:
+  - family-names: "Jamalpoor"
+    given-names: "Sai Varun"
+date-released: 2026-10-15
+url: "https://github.com/thesvj/agi-tracker"
+license: CC-BY-4.0

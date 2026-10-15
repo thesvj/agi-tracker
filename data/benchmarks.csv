@@ -1,0 +1,19 @@
+benchmark,agi_test,model,score,setting,result_date,source_url,source_tier,verified_on,notes
+ARC-AGI-3,T2,GPT-6 Astra (max effort),62.7%,"Semi-private set, Standard harness, cost $26,098",2026-09-03,https://arcprize.org/blog/astra,T1,2026-10-15,Provider-neutral harness; this repo uses it for T2
+ARC-AGI-3,T2,GPT-6 Astra (high effort),99.9%,"Semi-private set, Provider Adapter harness, cost $18,817",2026-09-03,https://arcprize.org/blog/astra,T1,2026-10-15,Keeps hidden reasoning state between turns; ARC labels it separately from Standard
+ARC-AGI-3,T2,GPT-6 Astra (max effort),fewer actions than median human on 96.0% of levels,"Provider Adapter harness",2026-09-03,https://arcprize.org/blog/astra,T1,2026-10-15,Action efficiency is the learning-speed signal
+ARC-AGI-3,T2,Frontier AI at launch,<1%,Launch evaluation,2026-03,https://arxiv.org/abs/2603.24621,T1,2026-10-15,Humans solve 100% of environments by design
+ARC-AGI-2,T2,GPT-6 Astra,95%,Frontier API run,2026-09,https://benchlm.ai/benchmarks/arc-agi-2,T3,,UNVERIFIED aggregator figure; near saturation
+METR time horizon 1.1 (50%),T3,Claude Mythos Preview (early),17.41 h [CI 8.5–55.1],Inspect scaffold,2026-04-07,https://metr.org/assets/benchmark_results_1_1.yaml,T1,2026-10-15,Above 16 h METR calls the suite unreliable
+METR time horizon 1.1 (80%),T3,Claude Mythos Preview (early),3.10 h,Inspect scaffold,2026-04-07,https://metr.org/assets/benchmark_results_1_1.yaml,T1,2026-10-15,This repo's T3 pass line is 167 h at 80%
+METR time horizon 1.1 (50%),T3,Claude Opus 4.6,11.98 h,Inspect scaffold,2026-02-05,https://metr.org/assets/benchmark_results_1_1.yaml,T1,2026-10-15,
+METR time horizon 1.1 (50%),T3,GPT-5,3.38 h,Inspect scaffold,2025-08-07,https://metr.org/assets/benchmark_results_1_1.yaml,T1,2026-10-15,Was 2 h 17 min on the older v1.0 suite
+METR time horizon 1.1 doubling time,T3,Frontier trend since 2023,128.7 days [CI 104–158],Excludes points with p50 > 16 h,2026,https://metr.org/assets/benchmark_results_1_1.yaml,T1,2026-10-15,About 4.2 months
+METR cheating rate,T5,Most capable agents evaluated,>=16% of successful runs on tasks over 8 h involved cheating,Time Horizon 1.1,2026-05-19,https://metr.org/blog/2026-05-19-frontier-risk-report/,T1,2026-10-15,Inflates time-horizon estimates
+Epoch Capabilities Index,T1,Claude Opus 5.5,166.82 [CI 163.54–170.99],General ECI,2026-09-22,https://epoch.ai/data/eci_scores.csv,T1,2026-10-15,Statistically tied with GPT-6 Astra (166.41) and GPT-6.1 Sol (166.32)
+Epoch Capabilities Index,T1,Kimi K3 (best open weights),157.42,General ECI,2026-07-16,https://epoch.ai/data/eci_scores.csv,T1,2026-10-15,About 9 ECI points behind the closed frontier
+AGI Score (CHC),T1,GPT-5,57%,"10 cognitive domains, equal weights",2025-10,https://arxiv.org/abs/2510.18212,T1,2026-10-15,GPT-4 scored 27%
+AGI Score (CHC),T4,Current systems (incl. GPT-5),"named the critical deficit: long-term memory storage",Domain finding,2025-10,https://arxiv.org/abs/2510.18212,T1,2026-10-15,Stated in the abstract; main evidence that T4 is unmet
+FrontierMath: Erdős,T1,GPT-6 Astra,2 of 68 problems (3%),Open research-level problems,2026-09-03,https://epoch.ai/benchmarks,T1,2026-10-15,No earlier model had solved any
+FrontierMath Tier 4 (v2),T1,GPT-5.6 Sol,83%,43 problems,2026-07-29,https://benchlm.ai/benchmarks/frontierMathV2Tier4,T3,,UNVERIFIED aggregator figure
+Humanity's Last Exam,T1,Public leaderboard leader,46.44%,"Text, no tools",2026-08-16,https://intuitionlabs.ai/articles/humanitys-last-exam-ai-benchmark,T3,,UNVERIFIED; check lastexam.ai
