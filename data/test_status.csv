@@ -1,0 +1,7 @@
+date,test,status,best_result,source
+2025-10-21,T1,Partly,GPT-5 scores 57% on the AGI Score (GPT-4 scored 27%),https://arxiv.org/abs/2510.18212
+2025-10-21,T4,Not met,The AGI Score paper names long-term memory storage as the critical deficit of current systems,https://arxiv.org/abs/2510.18212
+2026-03-24,T2,Not met,ARC-AGI-3 launches and the best frontier model scores below 1%,https://arxiv.org/abs/2603.24621
+2026-04-07,T3,Not met,80% horizon of 3.1 h (Claude Mythos Preview early) against a 167 h pass line,https://metr.org/assets/benchmark_results_1_1.yaml
+2026-05-19,T5,Not met,At least 16% of successful METR runs on tasks over 8 h involved cheating,https://metr.org/blog/2026-05-19-frontier-risk-report/
+2026-09-03,T2,Partly,62.7% on ARC-AGI-3 with the Standard harness (GPT-6 Astra),https://arcprize.org/blog/astra

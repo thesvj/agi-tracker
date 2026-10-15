@@ -1,0 +1,59 @@
+name: Update data and website
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Pull new METR and Epoch data
+        if: github.event_name != 'push'
+        run: |
+          uv run src/update_data.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data figures
+          if ! git diff --cached --quiet; then
+            git commit -m "Weekly data refresh $(date -u +%F)"
+            git push
+          fi
+
+      - name: Check arXiv references
+        continue-on-error: true
+        run: uv run src/check_refs.py
+
+      - name: Build website
+        run: uv run src/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

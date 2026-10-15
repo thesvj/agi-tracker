@@ -1,0 +1,38 @@
+name: New result
+description: A new benchmark result or evaluation that bears on one of the five tests
+labels: [new result]
+body:
+  - type: dropdown
+    id: test
+    attributes:
+      label: Which test does it bear on?
+      options: [T1 Breadth, T2 Learning new things, T3 Long tasks alone, T4 Learning on the job, T5 Reliable and affordable, Not sure]
+    validations:
+      required: true
+  - type: input
+    id: result
+    attributes:
+      label: Result
+      description: Benchmark, model, score and setting (harness, effort level, split)
+      placeholder: "ARC-AGI-3, GPT-6 Astra (max effort), 62.7%, Standard harness"
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date the result was published
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to the benchmark owner, an independent evaluator or the lab's own report. Aggregator sites are used only when nothing better exists.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Cost, confidence interval, caveats, or why this changes a status

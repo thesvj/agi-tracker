@@ -1,0 +1,13 @@
+benchmark,model,score,release_date,organization,epoch_file
+FrontierMath Tier 4 (v2),gpt-6.1-sol_max,1.0,2026-09-29,OpenAI,frontiermath_tier_4_v2.csv
+FrontierMath Tier 4 (v2),gpt-6-astra_high,0.976,2026-09-03,OpenAI,frontiermath_tier_4_v2.csv
+FrontierMath Tier 4 (v2),gpt-6-astra_xhigh,0.976,2026-09-03,OpenAI,frontiermath_tier_4_v2.csv
+FrontierMath: Erdős,gpt-6-astra_max,0.0294,2026-09-03,OpenAI,frontiermath_erdos.csv
+FrontierMath: Erdős,claude-opus-5-5_max,0.0294,2026-09-22,Anthropic,frontiermath_erdos.csv
+FrontierMath: Erdős,claude-sonnet-5-5_max,0.029,2026-09-28,Anthropic,frontiermath_erdos.csv
+ARC-AGI-2,GPT-6 Astra (Max),0.95,2026-09-03,OpenAI,arc_agi_2_external.csv
+ARC-AGI-2,GPT-6.1 Sol (Max),0.9417,2026-09-29,OpenAI,arc_agi_2_external.csv
+ARC-AGI-2,GPT-6 Astra (XHigh),0.9333,2026-09-03,OpenAI,arc_agi_2_external.csv
+Humanity's Last Exam,GPT 6 Astra,0.548,2026-09-03,OpenAI,hle_external.csv
+Humanity's Last Exam,Fable 5.1 (xhigh),0.465,2026-09-01,Anthropic,hle_external.csv
+Humanity's Last Exam,Gemini 3.1 Pro Preview (thinking high),0.4644,2026-02-19,Google DeepMind,hle_external.csv

@@ -19,4 +19,6 @@ Twelve modules that go from the basics of deep learning to the open problems at 
 
 If you have one weekend, do modules 00, 02, 04, 05, 06, 07 and 11 in that order, reading only the first group of papers in each.
 
+The seminal papers behind these modules are listed in one place, each with a line on why it matters, on the [papers](../papers.md) page.
+
 When you finish, the [tracker](../tracker.md) and the [ideas](../ideas.md) page show where things stand and what is still open.

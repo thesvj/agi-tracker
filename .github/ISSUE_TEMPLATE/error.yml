@@ -1,0 +1,24 @@
+name: Report an error
+description: A wrong number, date, link or claim
+labels: [error]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: File and the line or table row
+      placeholder: "tracker.md, T3 table, Claude Opus 4.6 row"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong and what it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source for the correction
+    validations:
+      required: true

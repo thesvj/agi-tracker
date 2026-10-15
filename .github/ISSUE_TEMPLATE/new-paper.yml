@@ -1,0 +1,32 @@
+name: Suggest a paper or lab
+description: A paper for the seminal list or reading path, or a lab that is missing
+labels: [reading]
+body:
+  - type: input
+    id: what
+    attributes:
+      label: Paper or lab
+      description: Authors, year and title, or the lab's name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: arXiv, DOI or the lab's research page
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where should it go?
+      options: [papers.md, labs.md, A learn/ module, survey.md, Not sure]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: One or two sentences on what it started or changed
+    validations:
+      required: true

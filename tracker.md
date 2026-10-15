@@ -1,6 +1,6 @@
 # Tracker
 
-Status of each test as of 15 October 2026. The definition and the pass lines are on the [What is AGI?](definition.md) page, and the raw data is in the [`data/` folder on GitHub](data/).
+Status of each test as of 16 October 2026. The definition and the pass lines are on the [What is AGI?](definition.md) page, and the raw data is in the [`data/` folder on GitHub](data/).
 
 Each number has a date and a source. Sources are marked primary when the result comes from the benchmark's owner or an independent evaluator. A figure from an aggregator site is shown only when no primary number exists, and is marked UNVERIFIED.
 
@@ -16,6 +16,12 @@ Each number has a date and a source. Sources are marked primary when the result 
 
 No system meets the definition. T2 is moving fastest. T3 at high reliability and T4 have moved least.
 
+## How the status has changed
+
+![Status of the five tests over time](figures/test_status.png)
+
+Each bar starts at the first dated evidence for that test and changes colour on the date a new result changed its status. The rows behind the chart, each with its evidence and source, are in [`data/test_status.csv`](data/test_status.csv). The full list of changes to this repo is in the [changelog](CHANGELOG.md).
+
 ## T1 Breadth
 
 ![Epoch Capabilities Index frontier](figures/eci_frontier.png)
@@ -28,10 +34,12 @@ No system meets the definition. T2 is moving fastest. T3 at high reliability and
 | Epoch Capabilities Index, best open-weights model | Kimi K3 (Moonshot) | 157.42 | 2026-07-16 | [Epoch, primary](https://epoch.ai/data/eci_scores.csv) |
 | AGI Score (CHC, 10 domains) | GPT-5 / GPT-4 | 57% / 27% | 2025-10 | [Hendrycks et al., primary](https://arxiv.org/abs/2510.18212) |
 | FrontierMath: Erdős (open research problems) | GPT-6 Astra | 2 of 68 solved | 2026-09-03 | [Epoch, primary](https://epoch.ai/benchmarks) |
-| FrontierMath Tier 4 (v2) | GPT-5.6 Sol | 83% | 2026-07-29 | [BenchLM, UNVERIFIED](https://benchlm.ai/benchmarks/frontierMathV2Tier4) |
-| Humanity's Last Exam (text, no tools) | Leaderboard leader | 46.4% | 2026-08-16 | [IntuitionLabs, UNVERIFIED](https://intuitionlabs.ai/articles/humanitys-last-exam-ai-benchmark) |
+| FrontierMath Tier 4 (v2) | GPT-6.1 Sol (max effort) | 100%, so the benchmark is saturated. GPT-6 Astra scores 97.6% | 2026-09-29 | [Epoch, primary](https://epoch.ai/data/benchmark_data.zip) |
+| Humanity's Last Exam | GPT-6 Astra | 54.8% | 2026-09-03 | [Epoch, compiled](https://epoch.ai/data/benchmark_data.zip) |
 
 The top three models overlap within their confidence intervals, so they are effectively tied. The best open-weights model is about 9 points behind. Closed models passed 157 in early 2026, which puts open models roughly half a year back.
+
+GPT-6.1 Sol solved every problem in FrontierMath Tier 4 (v2) in September 2026, so that benchmark no longer separates the best models. FrontierMath: Erdős, which is made of open research problems, is now the harder maths test.
 
 The capability index shows the trend in general capability. It can't say whether the breadth pass line has been met, because it has no point that corresponds to a human expert. An AGI Score run on a current model would be the most useful new evidence for T1.
 
@@ -43,7 +51,7 @@ The capability index shows the trend in general capability. It can't say whether
 | ARC-AGI-3, Provider Adapter harness | GPT-6 Astra (high effort) | 99.9% | $18,817 | 2026-09-03 | [ARC Prize, primary](https://arcprize.org/blog/astra) |
 | ARC-AGI-3 action efficiency | GPT-6 Astra (max effort, adapter) | Fewer actions than the median human on 96% of levels | n/a | 2026-09-03 | [ARC Prize, primary](https://arcprize.org/blog/astra) |
 | ARC-AGI-3 at launch | Best frontier model | Below 1% | n/a | 2026-03 | [Technical report, primary](https://arxiv.org/abs/2603.24621) |
-| ARC-AGI-2 | GPT-6 Astra | 95% | n/a | 2026-09 | [BenchLM, UNVERIFIED](https://benchlm.ai/benchmarks/arc-agi-2) |
+| ARC-AGI-2 | GPT-6 Astra (max effort) | 95.0% | n/a | 2026-09-03 | [Epoch, compiled](https://epoch.ai/data/benchmark_data.zip) |
 
 Going from below 1% to 62.7% on a provider-neutral harness in six months is the largest jump of 2026. Three things limit how far it can be read.
 
@@ -102,6 +110,7 @@ Capability is improving faster than reliability. The systems that can finish a 1
 |---|---|---|
 | Primary | The benchmark's owner or an independent evaluator, such as ARC Prize, METR, Epoch AI or the benchmark paper | Used directly |
 | Lab-reported | A developer reporting its own model's score | Used until a primary source confirms or replaces it |
+| Compiled | A result run by someone else and republished in Epoch AI's benchmark data | Used, with Epoch named as the source |
 | UNVERIFIED | Aggregator sites and press | Shown only when nothing better exists |
 
 Each number comes with its model version, its setting or harness, the date of the result, the source, and the uncertainty or cost where those are known. The setting matters: on ARC-AGI-3 the same model scores 62.7% with one harness and 99.9% with another.

@@ -119,7 +119,7 @@ A system that produces new knowledge, such as proofs or discoveries, is doing mo
 
 AlphaFold, which predicts protein structures, earned a share of the 2024 Nobel Prize in Chemistry. AlphaEvolve (Google DeepMind, 2025) combined language models with evolutionary search to find new algorithms, among them a faster method for multiplying 4×4 complex matrices.
 
-Epoch's FrontierMath (2024) tests research-level maths. Its hardest tier, Tier 4, was revised in June 2026 to version 2 with 43 problems, and aggregator sites report scores above 80% (UNVERIFIED). FrontierMath: Erdős, released in September 2026, uses problems that are still open. GPT-6 Astra solved 2 of the 68, and Epoch reports that no earlier model had solved any.
+Epoch's FrontierMath (2024) tests research-level maths. Its hardest tier, Tier 4, was revised in June 2026 to version 2 with 43 problems. By Epoch's own evaluation, GPT-6.1 Sol solved all of them in September 2026, so the tier is now saturated. FrontierMath: Erdős, released in September 2026, uses problems that are still open. GPT-6 Astra solved 2 of the 68, and Epoch reports that no earlier model had solved any.
 
 METR now treats the automation of AI research as a risk category in its own right (October 2026). RE-Bench, MLE-bench and PaperBench each measure part of it.
 

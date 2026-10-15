@@ -1,5 +1,5 @@
 {
-  "pulled_on": "2026-10-15",
+  "pulled_on": "2026-10-16",
   "metr_best_p50": {
     "model": "claude_mythos_preview_early_inspect",
     "release_date": "2026-04-07",
@@ -120,5 +120,39 @@
       "date": "2026-08-13",
       "Organization": "DeepSeek"
     }
-  ]
+  ],
+  "epoch_best": {
+    "Humanity's Last Exam": {
+      "benchmark": "Humanity's Last Exam",
+      "model": "GPT 6 Astra",
+      "score": 0.548,
+      "release_date": "2026-09-03",
+      "organization": "OpenAI",
+      "epoch_file": "hle_external.csv"
+    },
+    "ARC-AGI-2": {
+      "benchmark": "ARC-AGI-2",
+      "model": "GPT-6 Astra (Max)",
+      "score": 0.95,
+      "release_date": "2026-09-03",
+      "organization": "OpenAI",
+      "epoch_file": "arc_agi_2_external.csv"
+    },
+    "FrontierMath: Erd\u0151s": {
+      "benchmark": "FrontierMath: Erd\u0151s",
+      "model": "gpt-6-astra_max",
+      "score": 0.0294,
+      "release_date": "2026-09-03",
+      "organization": "OpenAI",
+      "epoch_file": "frontiermath_erdos.csv"
+    },
+    "FrontierMath Tier 4 (v2)": {
+      "benchmark": "FrontierMath Tier 4 (v2)",
+      "model": "gpt-6.1-sol_max",
+      "score": 1.0,
+      "release_date": "2026-09-29",
+      "organization": "OpenAI",
+      "epoch_file": "frontiermath_tier_4_v2.csv"
+    }
+  }
 }

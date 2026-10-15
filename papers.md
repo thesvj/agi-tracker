@@ -2,6 +2,8 @@
 
 The papers that anyone starting work on general AI should read. Each one either started a line of work that the field still follows or changed how people think about the problem. They are grouped by topic and sorted by year within each group. Newer results are in the [survey](survey.md), and the [study path](learn/README.md) adds exercises around many of these papers.
 
+Every work cited anywhere in this repo, including these, is in [references.bib](references.bib) for use in your own papers.
+
 If you only have time for ten, start with Turing 1950, Sutton 2019, Chollet 2019, Vaswani et al. 2017, Kaplan et al. 2020, Hoffmann et al. 2022, Ouyang et al. 2022, Wei et al. 2022 (chain of thought), DeepSeek-AI 2025 and Kwa et al. 2025.
 
 ## What intelligence is and how to measure it
