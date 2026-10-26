@@ -1,5 +1,5 @@
 {
-  "pulled_on": "2026-10-15",
+  "pulled_on": "2026-10-26",
   "metr_best_p50": {
     "model": "claude_mythos_preview_early_inspect",
     "release_date": "2026-04-07",
@@ -22,81 +22,81 @@
   "eci_top10": [
     {
       "Display name": "Claude Opus 5.5",
-      "eci": "166.82",
-      "eci_ci_low": "163.54",
-      "eci_ci_high": "170.99",
+      "eci": "168.83",
+      "eci_ci_low": "165.25",
+      "eci_ci_high": "173.95",
       "date": "2026-09-22",
       "Organization": "Anthropic"
     },
     {
       "Display name": "GPT-6 Astra",
-      "eci": "166.41",
-      "eci_ci_low": "163.35",
-      "eci_ci_high": "171.23",
+      "eci": "168.81",
+      "eci_ci_low": "165.45",
+      "eci_ci_high": "174.51",
       "date": "2026-09-03",
       "Organization": "OpenAI"
     },
     {
       "Display name": "GPT-6.1 Sol",
-      "eci": "166.32",
-      "eci_ci_low": "163.17",
-      "eci_ci_high": "170.82",
+      "eci": "168.37",
+      "eci_ci_low": "165.0",
+      "eci_ci_high": "174.43",
       "date": "2026-09-29",
       "Organization": "OpenAI"
     },
     {
       "Display name": "Claude Fable 5.1",
-      "eci": "164.65",
-      "eci_ci_low": "161.92",
-      "eci_ci_high": "168.48",
+      "eci": "166.49",
+      "eci_ci_low": "163.47",
+      "eci_ci_high": "171.35",
       "date": "2026-09-01",
       "Organization": "Anthropic"
     },
     {
       "Display name": "Gemini 4 Argon",
-      "eci": "164.56",
-      "eci_ci_low": "161.67",
-      "eci_ci_high": "168.7",
+      "eci": "166.45",
+      "eci_ci_low": "163.23",
+      "eci_ci_high": "171.52",
       "date": "2026-09-30",
       "Organization": "Google DeepMind"
     },
     {
       "Display name": "Claude Sonnet 5.5",
-      "eci": "164.45",
-      "eci_ci_low": "161.35",
-      "eci_ci_high": "168.26",
+      "eci": "166.18",
+      "eci_ci_low": "163.06",
+      "eci_ci_high": "171.34",
       "date": "2026-09-28",
       "Organization": "Anthropic"
     },
     {
       "Display name": "Claude Opus 5",
-      "eci": "162.6",
-      "eci_ci_low": "160.0",
-      "eci_ci_high": "165.75",
+      "eci": "163.94",
+      "eci_ci_low": "161.12",
+      "eci_ci_high": "168.24",
       "date": "2026-07-24",
       "Organization": "Anthropic"
     },
     {
       "Display name": "GPT-6 Sol",
-      "eci": "162.55",
-      "eci_ci_low": "160.03",
-      "eci_ci_high": "165.84",
+      "eci": "163.73",
+      "eci_ci_low": "160.92",
+      "eci_ci_high": "167.44",
       "date": "2026-09-22",
       "Organization": "OpenAI"
     },
     {
       "Display name": "Claude Fable 5",
-      "eci": "162.13",
-      "eci_ci_low": "159.53",
-      "eci_ci_high": "166.32",
+      "eci": "163.42",
+      "eci_ci_low": "160.53",
+      "eci_ci_high": "168.18",
       "date": "2026-06-09",
       "Organization": "Anthropic"
     },
     {
       "Display name": "GPT-5.5 Pro",
-      "eci": "161.97",
-      "eci_ci_low": "158.97",
-      "eci_ci_high": "165.09",
+      "eci": "162.91",
+      "eci_ci_low": "160.04",
+      "eci_ci_high": "166.6",
       "date": "2026-04-23",
       "Organization": "OpenAI"
     }
@@ -104,20 +104,20 @@
   "eci_top_open": [
     {
       "Display name": "Kimi K3",
-      "eci": "157.42",
+      "eci": "157.86",
       "date": "2026-07-16",
       "Organization": "Moonshot"
     },
     {
-      "Display name": "DeepSeek V4.1 Flash",
-      "eci": "155.57",
-      "date": "2026-09-09",
-      "Organization": "DeepSeek"
+      "Display name": "GLM-5.3",
+      "eci": "155.99",
+      "date": "2026-08-14",
+      "Organization": "Z.ai (Zhipu AI)"
     },
     {
-      "Display name": "DeepSeek V4 Pro 0813",
-      "eci": "155.29",
-      "date": "2026-08-13",
+      "Display name": "DeepSeek V4.1 Flash",
+      "eci": "155.93",
+      "date": "2026-09-09",
       "Organization": "DeepSeek"
     }
   ],
@@ -140,9 +140,9 @@
     },
     "FrontierMath: Erd\u0151s": {
       "benchmark": "FrontierMath: Erd\u0151s",
-      "model": "gpt-6-astra_max",
-      "score": 0.0294,
-      "release_date": "2026-09-03",
+      "model": "gpt-6.1-sol_max",
+      "score": 0.0441,
+      "release_date": "2026-09-29",
       "organization": "OpenAI",
       "epoch_file": "frontiermath_erdos.csv"
     },
