@@ -1,49 +1,47 @@
 group,model,date,org,eci,ci_low,ci_high
-open,LLaMA-65B,2023-02-24,Meta AI,109.97,100.74,114.32
-closed,GPT-4 (Mar 2023),2023-03-14,OpenAI,125.74,120.54,131.03
-open,Llama 2-70B,2023-07-18,Meta AI,113.67,104.62,117.19
-open,Stable Beluga 2,2023-07-20,Stability AI,117.02,109.56,120.11
-open,Yi-34B,2023-11-02,01.AI,117.33,108.94,120.6
-open,Mixtral 8x7B,2023-12-11,Mistral AI,118.44,111.29,120.9
-closed,GPT-4 Turbo (Nov 2023),2024-01-25,OpenAI,126.43,121.25,128.46
-closed,Claude 3 Opus,2024-02-29,Anthropic,126.9,122.38,129.96
-closed,GPT-4 Turbo (Apr 2024),2024-04-09,OpenAI,127.27,122.35,128.78
-open,Mixtral 8x22B,2024-04-17,Mistral AI,122.04,115.27,124.38
-open,Llama 3-70B,2024-04-18,Meta AI,123.01,117.25,125.75
-open,"DeepSeek-V2 (MoE-236B, May 2024)",2024-05-07,DeepSeek,124.8,118.76,127.84
-closed,GPT-4o (May 2024),2024-05-13,OpenAI,128.99,124.62,131.23
-open,Qwen2-72B,2024-06-07,Alibaba,125.28,119.09,126.9
+open,LLaMA-65B,2023-02-24,Meta AI,110.07,101.72,114.49
+closed,GPT-4 (Mar 2023),2023-03-14,OpenAI,125.73,120.52,129.59
+open,Llama 2-70B,2023-07-18,Meta AI,113.71,106.09,117.65
+open,Stable Beluga 2,2023-07-20,Stability AI,117.02,109.66,120.31
+open,Yi-34B,2023-11-02,01.AI,117.32,109.58,120.38
+open,Mixtral 8x7B,2023-12-11,Mistral AI,118.41,110.92,120.96
+closed,GPT-4 Turbo (Nov 2023),2024-01-25,OpenAI,126.41,121.57,128.73
+closed,Claude 3 Opus,2024-02-29,Anthropic,126.88,122.3,129.47
+closed,GPT-4 Turbo (Apr 2024),2024-04-09,OpenAI,127.25,122.16,128.79
+open,Mixtral 8x22B,2024-04-17,Mistral AI,121.98,115.68,124.34
+open,Llama 3-70B,2024-04-18,Meta AI,122.97,117.4,126.01
+open,"DeepSeek-V2 (MoE-236B, May 2024)",2024-05-07,DeepSeek,124.71,119.1,127.93
+closed,GPT-4o (May 2024),2024-05-13,OpenAI,128.99,124.71,131.34
+open,Qwen2-72B,2024-06-07,Alibaba,125.25,119.32,126.96
 closed,Claude 3.5 Sonnet,2024-06-20,Anthropic,130.0,,
-open,Llama 3.1-405B,2024-07-23,Meta AI,128.77,124.44,130.61
-closed,o1-mini,2024-09-12,OpenAI,135.7,132.36,137.17
-open,Qwen2.5-72B,2024-09-19,Alibaba,128.97,123.48,130.73
-open,Phi-4,2024-12-12,Microsoft Research,130.48,124.66,132.01
-closed,o1,2024-12-17,OpenAI,141.72,139.71,142.94
-open,DeepSeek-V3,2024-12-26,DeepSeek,132.3,128.06,135.23
-open,DeepSeek-R1,2025-01-20,DeepSeek,138.82,136.04,140.21
-closed,Gemini 2.5 Pro (Mar 2025),2025-03-31,Google DeepMind,143.96,141.74,146.84
-closed,o3,2025-04-16,OpenAI,146.73,144.83,148.52
-open,Qwen3-235B-A22B,2025-04-28,Alibaba,139.15,134.62,140.53
-open,DeepSeek-R1 (May 2025),2025-05-28,DeepSeek,141.13,139.05,142.66
-closed,o3-pro,2025-06-10,OpenAI,147.33,145.56,150.1
-open,Qwen3-235B-A22B-Thinking (Jul 2025),2025-07-25,Alibaba,143.76,141.71,145.3
+open,Llama 3.1-405B,2024-07-23,Meta AI,128.75,124.2,130.65
+closed,o1-mini,2024-09-12,OpenAI,135.82,132.48,137.17
+open,Qwen2.5-72B,2024-09-19,Alibaba,128.95,124.15,130.64
+open,Phi-4,2024-12-12,Microsoft Research,130.63,125.48,132.21
+closed,o1,2024-12-17,OpenAI,141.82,139.87,143.02
+open,DeepSeek-V3,2024-12-26,DeepSeek,132.32,127.53,135.5
+open,DeepSeek-R1,2025-01-20,DeepSeek,138.83,136.54,140.17
+closed,Gemini 2.5 Pro (Mar 2025),2025-03-31,Google DeepMind,144.03,141.93,146.84
+closed,o3,2025-04-16,OpenAI,146.86,145.0,148.83
+open,Qwen3-235B-A22B,2025-04-28,Alibaba,139.14,135.25,140.59
+open,DeepSeek-R1 (May 2025),2025-05-28,DeepSeek,141.17,138.97,142.85
+closed,o3-pro,2025-06-10,OpenAI,147.41,145.82,150.16
+open,Qwen3-235B-A22B-Thinking (Jul 2025),2025-07-25,Alibaba,143.78,141.89,145.22
 closed,GPT-5,2025-08-07,OpenAI,150.0,,
-open,DeepSeek-V3.2-Exp,2025-09-29,DeepSeek,144.91,142.45,146.81
-closed,GPT-5 Pro,2025-10-07,OpenAI,150.59,148.94,154.18
-open,Kimi K2 Thinking,2025-11-06,Moonshot,145.82,143.22,147.51
-closed,Gemini 3 Pro,2025-11-18,Google DeepMind,153.07,151.06,155.42
-open,DeepSeek-V3.2,2025-12-01,DeepSeek,146.09,144.27,147.38
-closed,GPT-5.2 Pro,2025-12-11,OpenAI,156.33,153.89,159.98
-open,Kimi K2.5,2026-01-27,Moonshot,148.07,146.55,149.52
-closed,GPT-5.3 Codex,2026-02-05,OpenAI,157.09,153.56,161.38
-closed,GPT-5.4 Pro,2026-03-05,OpenAI,159.57,157.1,162.7
-open,GLM-5.1,2026-04-07,Z.ai (Zhipu AI),149.82,147.66,151.89
-open,Kimi K2.6,2026-04-20,Moonshot,150.94,149.04,152.72
-closed,GPT-5.5 Pro,2026-04-23,OpenAI,162.91,160.04,166.6
-closed,Claude Fable 5,2026-06-09,Anthropic,163.42,160.53,168.18
-open,GLM-5.2,2026-06-16,Z.ai (Zhipu AI),151.94,149.99,154.1
-open,Kimi K3,2026-07-16,Moonshot,157.86,155.11,160.63
-closed,Claude Opus 5,2026-07-24,Anthropic,163.94,161.12,168.24
-closed,Claude Fable 5.1,2026-09-01,Anthropic,166.49,163.47,171.35
-closed,GPT-6 Astra,2026-09-03,OpenAI,168.81,165.45,174.51
-closed,Claude Opus 5.5,2026-09-22,Anthropic,168.83,165.25,173.95
+open,DeepSeek-V3.2-Exp,2025-09-29,DeepSeek,144.98,142.5,147.07
+closed,GPT-5 Pro,2025-10-07,OpenAI,150.74,148.89,154.57
+open,Kimi K2 Thinking,2025-11-06,Moonshot,145.87,143.3,147.42
+closed,Gemini 3 Pro,2025-11-18,Google DeepMind,153.22,151.08,155.57
+open,DeepSeek-V3.2,2025-12-01,DeepSeek,146.14,144.36,147.46
+closed,GPT-5.2 Pro,2025-12-11,OpenAI,156.54,153.89,160.64
+open,Kimi K2.5,2026-01-27,Moonshot,148.11,146.3,149.45
+closed,GPT-5.4 Pro,2026-03-05,OpenAI,159.81,157.38,162.99
+open,GLM-5.1,2026-04-07,Z.ai (Zhipu AI),149.88,148.05,151.71
+open,Kimi K2.6,2026-04-20,Moonshot,151.06,149.06,152.88
+closed,GPT-5.5 Pro,2026-04-23,OpenAI,163.11,159.99,166.63
+open,GLM-5.2,2026-06-16,Z.ai (Zhipu AI),152.07,150.13,154.11
+open,Kimi K3,2026-07-16,Moonshot,158.33,155.79,161.35
+closed,Claude Opus 5,2026-07-24,Anthropic,164.47,161.69,168.29
+closed,Claude Fable 5.1,2026-09-01,Anthropic,166.36,163.61,170.75
+closed,GPT-6 Astra,2026-09-03,OpenAI,169.06,165.88,174.29
+open,DeepSeek V4.1 Flash 1017,2026-10-17,DeepSeek,158.83,156.71,162.2

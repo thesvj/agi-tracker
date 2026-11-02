@@ -1,5 +1,5 @@
 {
-  "pulled_on": "2026-10-26",
+  "pulled_on": "2026-11-02",
   "metr_best_p50": {
     "model": "claude_mythos_preview_early_inspect",
     "release_date": "2026-04-07",
@@ -21,104 +21,104 @@
   },
   "eci_top10": [
     {
-      "Display name": "Claude Opus 5.5",
-      "eci": "168.83",
-      "eci_ci_low": "165.25",
-      "eci_ci_high": "173.95",
-      "date": "2026-09-22",
-      "Organization": "Anthropic"
-    },
-    {
       "Display name": "GPT-6 Astra",
-      "eci": "168.81",
-      "eci_ci_low": "165.45",
-      "eci_ci_high": "174.51",
+      "eci": "169.06",
+      "eci_ci_low": "165.88",
+      "eci_ci_high": "174.29",
       "date": "2026-09-03",
       "Organization": "OpenAI"
     },
     {
+      "Display name": "Claude Opus 5.5",
+      "eci": "168.4",
+      "eci_ci_low": "165.37",
+      "eci_ci_high": "173.03",
+      "date": "2026-09-22",
+      "Organization": "Anthropic"
+    },
+    {
+      "Display name": "GPT-6.1 Terra",
+      "eci": "168.11",
+      "eci_ci_low": "164.94",
+      "eci_ci_high": "172.94",
+      "date": "2026-10-26",
+      "Organization": "OpenAI"
+    },
+    {
       "Display name": "GPT-6.1 Sol",
-      "eci": "168.37",
-      "eci_ci_low": "165.0",
-      "eci_ci_high": "174.43",
+      "eci": "167.82",
+      "eci_ci_low": "164.29",
+      "eci_ci_high": "172.51",
       "date": "2026-09-29",
       "Organization": "OpenAI"
     },
     {
-      "Display name": "Claude Fable 5.1",
-      "eci": "166.49",
-      "eci_ci_low": "163.47",
-      "eci_ci_high": "171.35",
-      "date": "2026-09-01",
-      "Organization": "Anthropic"
-    },
-    {
-      "Display name": "Gemini 4 Argon",
-      "eci": "166.45",
-      "eci_ci_low": "163.23",
-      "eci_ci_high": "171.52",
-      "date": "2026-09-30",
-      "Organization": "Google DeepMind"
-    },
-    {
       "Display name": "Claude Sonnet 5.5",
-      "eci": "166.18",
-      "eci_ci_low": "163.06",
+      "eci": "166.74",
+      "eci_ci_low": "163.58",
       "eci_ci_high": "171.34",
       "date": "2026-09-28",
       "Organization": "Anthropic"
     },
     {
+      "Display name": "Claude Fable 5.1",
+      "eci": "166.36",
+      "eci_ci_low": "163.61",
+      "eci_ci_high": "170.75",
+      "date": "2026-09-01",
+      "Organization": "Anthropic"
+    },
+    {
+      "Display name": "Gemini 4 Argon",
+      "eci": "166.07",
+      "eci_ci_low": "163.14",
+      "eci_ci_high": "170.27",
+      "date": "2026-09-30",
+      "Organization": "Google DeepMind"
+    },
+    {
       "Display name": "Claude Opus 5",
-      "eci": "163.94",
-      "eci_ci_low": "161.12",
-      "eci_ci_high": "168.24",
+      "eci": "164.47",
+      "eci_ci_low": "161.69",
+      "eci_ci_high": "168.29",
       "date": "2026-07-24",
       "Organization": "Anthropic"
     },
     {
       "Display name": "GPT-6 Sol",
-      "eci": "163.73",
-      "eci_ci_low": "160.92",
-      "eci_ci_high": "167.44",
+      "eci": "163.78",
+      "eci_ci_low": "161.1",
+      "eci_ci_high": "167.29",
       "date": "2026-09-22",
       "Organization": "OpenAI"
     },
     {
-      "Display name": "Claude Fable 5",
-      "eci": "163.42",
-      "eci_ci_low": "160.53",
-      "eci_ci_high": "168.18",
-      "date": "2026-06-09",
-      "Organization": "Anthropic"
-    },
-    {
       "Display name": "GPT-5.5 Pro",
-      "eci": "162.91",
-      "eci_ci_low": "160.04",
-      "eci_ci_high": "166.6",
+      "eci": "163.11",
+      "eci_ci_low": "159.99",
+      "eci_ci_high": "166.63",
       "date": "2026-04-23",
       "Organization": "OpenAI"
     }
   ],
   "eci_top_open": [
     {
+      "Display name": "DeepSeek V4.1 Flash 1017",
+      "eci": "158.83",
+      "date": "2026-10-17",
+      "Organization": "DeepSeek"
+    },
+    {
       "Display name": "Kimi K3",
-      "eci": "157.86",
+      "eci": "158.33",
       "date": "2026-07-16",
       "Organization": "Moonshot"
     },
     {
       "Display name": "GLM-5.3",
-      "eci": "155.99",
+      "eci": "156.17",
       "date": "2026-08-14",
       "Organization": "Z.ai (Zhipu AI)"
-    },
-    {
-      "Display name": "DeepSeek V4.1 Flash",
-      "eci": "155.93",
-      "date": "2026-09-09",
-      "Organization": "DeepSeek"
     }
   ],
   "epoch_best": {
