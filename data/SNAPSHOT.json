@@ -1,5 +1,5 @@
 {
-  "pulled_on": "2026-11-02",
+  "pulled_on": "2026-11-09",
   "metr_best_p50": {
     "model": "claude_mythos_preview_early_inspect",
     "release_date": "2026-04-07",
@@ -22,101 +22,101 @@
   "eci_top10": [
     {
       "Display name": "GPT-6 Astra",
-      "eci": "169.06",
-      "eci_ci_low": "165.88",
-      "eci_ci_high": "174.29",
+      "eci": "169.07",
+      "eci_ci_low": "166.16",
+      "eci_ci_high": "172.28",
       "date": "2026-09-03",
       "Organization": "OpenAI"
     },
     {
+      "Display name": "GPT-6.1 Sol",
+      "eci": "168.94",
+      "eci_ci_low": "165.97",
+      "eci_ci_high": "172.19",
+      "date": "2026-09-29",
+      "Organization": "OpenAI"
+    },
+    {
       "Display name": "Claude Opus 5.5",
-      "eci": "168.4",
-      "eci_ci_low": "165.37",
-      "eci_ci_high": "173.03",
+      "eci": "168.36",
+      "eci_ci_low": "165.54",
+      "eci_ci_high": "171.51",
       "date": "2026-09-22",
       "Organization": "Anthropic"
     },
     {
       "Display name": "GPT-6.1 Terra",
-      "eci": "168.11",
-      "eci_ci_low": "164.94",
-      "eci_ci_high": "172.94",
+      "eci": "167.82",
+      "eci_ci_low": "164.88",
+      "eci_ci_high": "171.17",
       "date": "2026-10-26",
       "Organization": "OpenAI"
     },
     {
-      "Display name": "GPT-6.1 Sol",
-      "eci": "167.82",
-      "eci_ci_low": "164.29",
-      "eci_ci_high": "172.51",
-      "date": "2026-09-29",
-      "Organization": "OpenAI"
-    },
-    {
-      "Display name": "Claude Sonnet 5.5",
-      "eci": "166.74",
-      "eci_ci_low": "163.58",
-      "eci_ci_high": "171.34",
-      "date": "2026-09-28",
-      "Organization": "Anthropic"
-    },
-    {
       "Display name": "Claude Fable 5.1",
-      "eci": "166.36",
-      "eci_ci_low": "163.61",
-      "eci_ci_high": "170.75",
+      "eci": "166.9",
+      "eci_ci_low": "164.27",
+      "eci_ci_high": "169.85",
       "date": "2026-09-01",
       "Organization": "Anthropic"
     },
     {
       "Display name": "Gemini 4 Argon",
-      "eci": "166.07",
-      "eci_ci_low": "163.14",
-      "eci_ci_high": "170.27",
+      "eci": "166.45",
+      "eci_ci_low": "163.83",
+      "eci_ci_high": "169.38",
       "date": "2026-09-30",
       "Organization": "Google DeepMind"
     },
     {
+      "Display name": "Claude Sonnet 5.5",
+      "eci": "166.24",
+      "eci_ci_low": "163.52",
+      "eci_ci_high": "169.23",
+      "date": "2026-09-28",
+      "Organization": "Anthropic"
+    },
+    {
       "Display name": "Claude Opus 5",
-      "eci": "164.47",
-      "eci_ci_low": "161.69",
-      "eci_ci_high": "168.29",
+      "eci": "164.45",
+      "eci_ci_low": "162.0",
+      "eci_ci_high": "167.17",
       "date": "2026-07-24",
       "Organization": "Anthropic"
     },
     {
-      "Display name": "GPT-6 Sol",
-      "eci": "163.78",
-      "eci_ci_low": "161.1",
-      "eci_ci_high": "167.29",
-      "date": "2026-09-22",
-      "Organization": "OpenAI"
+      "Display name": "Claude Fable 5",
+      "eci": "164.19",
+      "eci_ci_low": "161.77",
+      "eci_ci_high": "166.87",
+      "date": "2026-06-09",
+      "Organization": "Anthropic"
     },
     {
-      "Display name": "GPT-5.5 Pro",
-      "eci": "163.11",
-      "eci_ci_low": "159.99",
-      "eci_ci_high": "166.63",
-      "date": "2026-04-23",
+      "Display name": "GPT-6 Sol",
+      "eci": "164.06",
+      "eci_ci_low": "161.58",
+      "eci_ci_high": "166.8",
+      "date": "2026-09-22",
       "Organization": "OpenAI"
     }
   ],
   "eci_top_open": [
     {
       "Display name": "DeepSeek V4.1 Flash 1017",
-      "eci": "158.83",
+      "eci": "159.31",
       "date": "2026-10-17",
       "Organization": "DeepSeek"
     },
     {
       "Display name": "Kimi K3",
-      "eci": "158.33",
+      "eci": "158.51",
       "date": "2026-07-16",
       "Organization": "Moonshot"
     },
     {
       "Display name": "GLM-5.3",
-      "eci": "156.17",
+      "eci": "156.91",
       "date": "2026-08-14",
       "Organization": "Z.ai (Zhipu AI)"
     }
