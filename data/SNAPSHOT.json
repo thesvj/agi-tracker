@@ -1,5 +1,5 @@
 {
-  "pulled_on": "2026-11-09",
+  "pulled_on": "2026-11-10",
   "metr_best_p50": {
     "model": "claude_mythos_preview_early_inspect",
     "release_date": "2026-04-07",
@@ -21,104 +21,104 @@
   },
   "eci_top10": [
     {
+      "Display name": "Claude Fable 5.2",
+      "eci": "174.24",
+      "eci_ci_low": "170.12",
+      "eci_ci_high": "178.79",
+      "date": "2026-11-09",
+      "Organization": "Anthropic"
+    },
+    {
       "Display name": "GPT-6 Astra",
-      "eci": "169.07",
-      "eci_ci_low": "166.16",
-      "eci_ci_high": "172.28",
+      "eci": "169.16",
+      "eci_ci_low": "166.19",
+      "eci_ci_high": "172.51",
       "date": "2026-09-03",
       "Organization": "OpenAI"
     },
     {
       "Display name": "GPT-6.1 Sol",
-      "eci": "168.94",
-      "eci_ci_low": "165.97",
-      "eci_ci_high": "172.19",
+      "eci": "168.87",
+      "eci_ci_low": "165.9",
+      "eci_ci_high": "172.24",
       "date": "2026-09-29",
       "Organization": "OpenAI"
     },
     {
       "Display name": "Claude Opus 5.5",
-      "eci": "168.36",
-      "eci_ci_low": "165.54",
-      "eci_ci_high": "171.51",
+      "eci": "168.67",
+      "eci_ci_low": "165.78",
+      "eci_ci_high": "171.91",
       "date": "2026-09-22",
       "Organization": "Anthropic"
     },
     {
       "Display name": "GPT-6.1 Terra",
-      "eci": "167.82",
-      "eci_ci_low": "164.88",
-      "eci_ci_high": "171.17",
+      "eci": "168.11",
+      "eci_ci_low": "165.09",
+      "eci_ci_high": "171.5",
       "date": "2026-10-26",
       "Organization": "OpenAI"
     },
     {
       "Display name": "Claude Fable 5.1",
-      "eci": "166.9",
-      "eci_ci_low": "164.27",
-      "eci_ci_high": "169.85",
+      "eci": "167.04",
+      "eci_ci_low": "164.29",
+      "eci_ci_high": "170.2",
       "date": "2026-09-01",
       "Organization": "Anthropic"
     },
     {
       "Display name": "Gemini 4 Argon",
-      "eci": "166.45",
-      "eci_ci_low": "163.83",
-      "eci_ci_high": "169.38",
+      "eci": "166.53",
+      "eci_ci_low": "163.88",
+      "eci_ci_high": "169.53",
       "date": "2026-09-30",
       "Organization": "Google DeepMind"
     },
     {
       "Display name": "Claude Sonnet 5.5",
-      "eci": "166.24",
-      "eci_ci_low": "163.52",
-      "eci_ci_high": "169.23",
+      "eci": "166.32",
+      "eci_ci_low": "163.65",
+      "eci_ci_high": "169.35",
       "date": "2026-09-28",
       "Organization": "Anthropic"
     },
     {
       "Display name": "Claude Opus 5",
-      "eci": "164.45",
-      "eci_ci_low": "162.0",
-      "eci_ci_high": "167.17",
+      "eci": "164.48",
+      "eci_ci_low": "162.02",
+      "eci_ci_high": "167.3",
       "date": "2026-07-24",
       "Organization": "Anthropic"
     },
     {
       "Display name": "Claude Fable 5",
-      "eci": "164.19",
-      "eci_ci_low": "161.77",
-      "eci_ci_high": "166.87",
+      "eci": "164.25",
+      "eci_ci_low": "161.83",
+      "eci_ci_high": "167.02",
       "date": "2026-06-09",
       "Organization": "Anthropic"
-    },
-    {
-      "Display name": "GPT-6 Sol",
-      "eci": "164.06",
-      "eci_ci_low": "161.58",
-      "eci_ci_high": "166.8",
-      "date": "2026-09-22",
-      "Organization": "OpenAI"
     }
   ],
   "eci_top_open": [
     {
+      "Display name": "Kimi K3.1 Pro",
+      "eci": "162.02",
+      "date": "2026-10-23",
+      "Organization": "Moonshot"
+    },
+    {
       "Display name": "DeepSeek V4.1 Flash 1017",
-      "eci": "159.31",
+      "eci": "159.34",
       "date": "2026-10-17",
       "Organization": "DeepSeek"
     },
     {
       "Display name": "Kimi K3",
-      "eci": "158.51",
+      "eci": "158.53",
       "date": "2026-07-16",
       "Organization": "Moonshot"
-    },
-    {
-      "Display name": "GLM-5.3",
-      "eci": "156.91",
-      "date": "2026-08-14",
-      "Organization": "Z.ai (Zhipu AI)"
     }
   ],
   "epoch_best": {
@@ -148,10 +148,10 @@
     },
     "FrontierMath Tier 4 (v2)": {
       "benchmark": "FrontierMath Tier 4 (v2)",
-      "model": "gpt-6.1-sol_max",
+      "model": "claude-fable-5-2_max",
       "score": 1.0,
-      "release_date": "2026-09-29",
-      "organization": "OpenAI",
+      "release_date": "2026-11-09",
+      "organization": "Anthropic",
       "epoch_file": "frontiermath_tier_4_v2.csv"
     }
   }
