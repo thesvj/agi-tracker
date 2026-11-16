@@ -1,5 +1,5 @@
 {
-  "pulled_on": "2026-11-10",
+  "pulled_on": "2026-11-16",
   "metr_best_p50": {
     "model": "claude_mythos_preview_early_inspect",
     "release_date": "2026-04-07",
@@ -22,101 +22,101 @@
   "eci_top10": [
     {
       "Display name": "Claude Fable 5.2",
-      "eci": "174.24",
-      "eci_ci_low": "170.12",
-      "eci_ci_high": "178.79",
+      "eci": "173.44",
+      "eci_ci_low": "169.93",
+      "eci_ci_high": "177.49",
       "date": "2026-11-09",
       "Organization": "Anthropic"
     },
     {
+      "Display name": "Gemini 4 Carbon",
+      "eci": "169.76",
+      "eci_ci_low": "166.48",
+      "eci_ci_high": "173.5",
+      "date": "2026-10-28",
+      "Organization": "Google DeepMind"
+    },
+    {
       "Display name": "GPT-6 Astra",
-      "eci": "169.16",
-      "eci_ci_low": "166.19",
-      "eci_ci_high": "172.51",
+      "eci": "169.0",
+      "eci_ci_low": "166.08",
+      "eci_ci_high": "172.26",
       "date": "2026-09-03",
       "Organization": "OpenAI"
     },
     {
-      "Display name": "GPT-6.1 Sol",
-      "eci": "168.87",
-      "eci_ci_low": "165.9",
-      "eci_ci_high": "172.24",
-      "date": "2026-09-29",
-      "Organization": "OpenAI"
-    },
-    {
       "Display name": "Claude Opus 5.5",
-      "eci": "168.67",
-      "eci_ci_low": "165.78",
-      "eci_ci_high": "171.91",
+      "eci": "168.54",
+      "eci_ci_low": "165.63",
+      "eci_ci_high": "171.83",
       "date": "2026-09-22",
       "Organization": "Anthropic"
     },
     {
+      "Display name": "GPT-6.1 Sol",
+      "eci": "168.48",
+      "eci_ci_low": "165.49",
+      "eci_ci_high": "171.8",
+      "date": "2026-09-29",
+      "Organization": "OpenAI"
+    },
+    {
       "Display name": "GPT-6.1 Terra",
-      "eci": "168.11",
-      "eci_ci_low": "165.09",
-      "eci_ci_high": "171.5",
+      "eci": "167.67",
+      "eci_ci_low": "164.73",
+      "eci_ci_high": "170.98",
       "date": "2026-10-26",
       "Organization": "OpenAI"
     },
     {
       "Display name": "Claude Fable 5.1",
-      "eci": "167.04",
-      "eci_ci_low": "164.29",
-      "eci_ci_high": "170.2",
+      "eci": "166.99",
+      "eci_ci_low": "164.23",
+      "eci_ci_high": "170.11",
       "date": "2026-09-01",
       "Organization": "Anthropic"
     },
     {
-      "Display name": "Gemini 4 Argon",
-      "eci": "166.53",
-      "eci_ci_low": "163.88",
-      "eci_ci_high": "169.53",
-      "date": "2026-09-30",
-      "Organization": "Google DeepMind"
-    },
-    {
       "Display name": "Claude Sonnet 5.5",
-      "eci": "166.32",
-      "eci_ci_low": "163.65",
-      "eci_ci_high": "169.35",
+      "eci": "166.56",
+      "eci_ci_low": "163.76",
+      "eci_ci_high": "169.58",
       "date": "2026-09-28",
       "Organization": "Anthropic"
     },
     {
-      "Display name": "Claude Opus 5",
-      "eci": "164.48",
-      "eci_ci_low": "162.02",
-      "eci_ci_high": "167.3",
-      "date": "2026-07-24",
-      "Organization": "Anthropic"
+      "Display name": "Gemini 4 Argon",
+      "eci": "166.48",
+      "eci_ci_low": "163.77",
+      "eci_ci_high": "169.46",
+      "date": "2026-09-30",
+      "Organization": "Google DeepMind"
     },
     {
-      "Display name": "Claude Fable 5",
-      "eci": "164.25",
-      "eci_ci_low": "161.83",
-      "eci_ci_high": "167.02",
-      "date": "2026-06-09",
+      "Display name": "Claude Opus 5",
+      "eci": "164.68",
+      "eci_ci_low": "162.14",
+      "eci_ci_high": "167.49",
+      "date": "2026-07-24",
       "Organization": "Anthropic"
     }
   ],
   "eci_top_open": [
     {
       "Display name": "Kimi K3.1 Pro",
-      "eci": "162.02",
+      "eci": "161.37",
       "date": "2026-10-23",
       "Organization": "Moonshot"
     },
     {
       "Display name": "DeepSeek V4.1 Flash 1017",
-      "eci": "159.34",
+      "eci": "159.41",
       "date": "2026-10-17",
       "Organization": "DeepSeek"
     },
     {
       "Display name": "Kimi K3",
-      "eci": "158.53",
+      "eci": "158.58",
       "date": "2026-07-16",
       "Organization": "Moonshot"
     }
